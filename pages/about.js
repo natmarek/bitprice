@@ -1,12 +1,15 @@
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 
 const About = () => (
-    <div>
-        <Navbar/>
-        <h1>About Bitprice</h1> 
-        <p> App to view bitcoin prices </p>
-    </div>
+    <Layout>
+        <div>
+            
+            <h2>About Bitprice</h2> 
+            <p> App to view bitcoin prices </p>
+            
+        </div>
+    </Layout>
 );
 
 export default About
